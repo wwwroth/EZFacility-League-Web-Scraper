@@ -11,6 +11,10 @@ $ezLeague->setLeaguePage('http://ezleagues.ezfacility.com/leagues/*****/*****.as
 $ezLeagueData = json_encode($ezLeague->getAllLeagueInformation());
 ```
 
+#### MRW Writing This Code
+
+http://thecodinglove.com/post/85507059649/when-i-am-about-to-do-some-shitty-code
+
 #### Notes
 This is poor code- I know. I wrote it as quick as possible to help out a friend who is building a club sports page and needed a solution to avoid EzFacility's way of using iFrames to terribly designed unresponsive pages.
 
