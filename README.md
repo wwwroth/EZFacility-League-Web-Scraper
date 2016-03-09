@@ -1,5 +1,5 @@
 # EZFacility-League-Web-Scraper
-PHP class to scrape EZFacility EZLeague information pages since they refuse to build an API
+PHP class to scrape EZFacility EZLeague information pages since they refuse to update their archaic technology and build an API
 
 ### How To Use
 
