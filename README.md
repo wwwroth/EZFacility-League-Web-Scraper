@@ -14,4 +14,4 @@ $ezLeagueData = json_encode($ezLeague->getAllLeagueInformation());
 #### Notes
 This is poor code- I know. I wrote it as quick as possible to help out a friend who is building a club sports page and needed a solution to avoid EzFacility's way of using iFrames to terribly designed unresponsive pages.
 
-EzFacility, if you're reading this, build a RESTful API for existing and new customers. Regardless of what data is in the database you don't want to expose (was told this on the phone) if you write the queries responsibly you wdon't have to worry about that.
+EzFacility, if you're reading this, build a RESTful API for existing and new customers. Regardless of what data is in the database you don't want to expose (was told this on the phone) if you write the queries responsibly you wdon't have to worry about that. Also, don't update any of the ID's on the tables on your front-end because then I'll actually have to maintain this thing.
