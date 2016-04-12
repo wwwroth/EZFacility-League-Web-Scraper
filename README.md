@@ -6,18 +6,7 @@ PHP class to scrape EZFacility EZLeague information pages since they refuse to u
 ```php
 <?php
 require('ezleague-scrape.php');
-$ezLeague = new FuckEzLeague;
+$ezLeague = new EzLeagueScrape;
 $ezLeague->setLeaguePage('http://ezleagues.ezfacility.com/leagues/*****/*****.aspx?framed=1');
 $ezLeagueData = json_encode($ezLeague->getAllLeagueInformation());
 ```
-
-#### MRW Writing This Code
-
-http://thecodinglove.com/post/85507059649/when-i-am-about-to-do-some-shitty-code
-
-#### Notes
-This is poor code- I know. I wrote it as quick as possible to help out a friend who is building a club sports page and needed a solution to avoid EzFacility's way of using iFrames to terribly designed unresponsive pages.
-
-EzFacility, if you're reading this, build a RESTful API for existing and new customers. Regardless of what data is in the database you don't want to expose (was told this on the phone). If you write the queries responsibly you wouldn'tt have to worry about that. Maybe try the Lumen framework with ORM?
-
-Also, don't update any of the ID's on the tables on your front-end because then I'll actually have to maintain this thing.
